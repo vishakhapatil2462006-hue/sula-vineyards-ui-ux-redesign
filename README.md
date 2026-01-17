@@ -1,97 +1,158 @@
-# Welcome to your Lovable project
+Sula Wines – Website UI/UX Redesign
 
-## Project info
+Internship Task 2
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+📌 Project Overview
 
-## How can I edit this code?
+This project is a UI/UX redesign concept for the Sula Wines official website, created as part of Internship Task 2.
+The goal of this task was to improve the visual design, usability, accessibility, and overall user experience while maintaining the brand’s premium and elegant identity.
 
-There are several ways of editing your application.
+The redesign focuses on:
 
-**Use Lovable**
+Clean and modern layout
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Improved navigation structure
 
-Changes made via Lovable will be committed automatically to this repo.
+Better hero section storytelling
 
-**Use your preferred IDE**
+Mobile-responsive design
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Clear call-to-action hierarchy
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+⚠️ This project is created for educational purposes only and is not affiliated with or endorsed by Sula Vineyards.
 
-Follow these steps:
+🎯 Objectives
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Redesign the homepage with a strong visual hero section
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Improve information hierarchy and readability
 
-# Step 3: Install the necessary dependencies.
-npm i
+Enhance user flow across key sections
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Ensure responsive behavior across devices
+
+Apply UI/UX best practices and accessibility principles
+
+🧩 Key Features
+
+Modern Hero Section with brand imagery and CTA
+
+Responsive Header & Navigation
+
+Wine Collection Preview Section
+
+Clean Typography & Color System
+
+Mobile-First Design Approach
+
+Accessible Contrast & Focus States
+
+🛠️ Tech Stack
+
+Vite
+
+React
+
+TypeScript
+
+Tailwind CSS
+
+shadcn/ui
+
+📂 Project Structure
+├── public
+│   ├── sula-hero.jpg
+│   └── wireframes
+│       ├── wireframe-home.svg
+│       ├── wireframe-header.svg
+│       └── wireframe-hero.svg
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── assets
+│   └── styles
+│
+├── package.json
+├── tailwind.config.ts
+└── README.md
+
+🖼️ Wireframes
+
+Low-fidelity wireframes were created to plan layout and UX decisions:
+
+Homepage Layout – Header, Hero, Featured Wines
+
+Header Variations – Desktop & Mobile navigation
+
+Hero Section – Image treatment and CTA placement
+
+Wireframes are available in:
+public/wireframes/
+
+🚀 Getting Started
+Prerequisites
+
+Node.js (v18 or later)
+
+npm
+
+Installation
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project folder
+cd sula-wines-ui-redesign
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-```
-
-## Adding the attached hero image
-
-Place the attached image file you provided in the project root `public` folder as `public/sula-hero.jpg`.
-The homepage will display this image at the top of the page. If you prefer the image inside the build assets, copy it to `src/assets` and update imports accordingly.
-
-## Low-Fidelity Wireframes
-
-I added three low-fidelity SVG wireframes to `public/wireframes/` to help visualize layout and UX decisions:
-
-- `public/wireframes/wireframe-home.svg` — top-fold homepage layout (header, hero, wines preview)
-- `public/wireframes/wireframe-header.svg` — header variations (desktop and mobile)
-- `public/wireframes/wireframe-hero.svg` — hero treatment options (cover vs contain, CTAs)
-
-Open those SVG files in your browser or VS Code to view the simple mockups.
-
-## Usability Notes (summary)
-
-- Use images >= 1920px width for hero to avoid upscaling blur.
-- Keep a dark gradient overlay on hero backgrounds for headline/CTA legibility.
-- On small screens reduce hero height and simplify CTAs to avoid pushing content below the fold.
-- Use square crops for logo/favicons (serve a `favicon.png` or `.ico` for best compatibility).
-- Ensure nav contrast and keyboard accessibility; anchor links should smooth-scroll and have clear focus states.
 
 
-**Edit a file directly in GitHub**
+The app will run locally at:
+http://localhost:5173
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📱 Responsive Design
 
-**Use GitHub Codespaces**
+The design is optimized for:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Desktop
 
-## What technologies are used for this project?
+Tablet
 
-This project is built with:
+Mobile devices
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Special attention was given to:
 
-## How can I deploy this project?
+Hero height on small screens
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Touch-friendly navigation
 
-## Can I connect a custom domain to my Lovable project?
+Readable font sizes
 
-Yes, you can!
+🎨 Design Considerations
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+High-resolution imagery for premium brand feel
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Dark overlays for text legibility on hero images
+
+Consistent spacing and visual rhythm
+
+Clear CTA hierarchy
+
+Smooth scrolling and focus states
+
+📚 Learning Outcomes
+
+Practical application of UI/UX principles
+
+Component-based design using React
+
+Responsive layout using Tailwind CSS
+
+Translating wireframes into functional UI
+
+Improving usability through design decisions
+
