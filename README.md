@@ -1,10 +1,8 @@
 Sula Wines – Website UI/UX Redesign
 
-Internship Task 2
-
 📌 Project Overview
 
-This project is a UI/UX redesign concept for the Sula Wines official website, created as part of Internship Task 2.
+This project is a UI/UX redesign concept for the Sula Wines official website.
 The goal of this task was to improve the visual design, usability, accessibility, and overall user experience while maintaining the brand’s premium and elegant identity.
 
 The redesign focuses on:
